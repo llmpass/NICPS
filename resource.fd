@@ -1,0 +1,24 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by easyViewer.rc
+!
+      integer, parameter :: IDD_ABOUTBOX                    = 100
+      integer, parameter :: IDR_MAINFRAME                   = 128
+      integer, parameter :: IDR_EASYVITYPE                  = 129
+      integer, parameter :: ID_GetPrinAxes                  = 32774
+      integer, parameter :: ID_PrinAlignment                = 32776
+      integer, parameter :: ID_ShowWireframe                = 32777
+      integer, parameter :: ID_ShadingModel                 = 32778
+      integer, parameter :: ID_Fitting                      = 32779
+      integer, parameter :: ID_ColorCurvature               = 32780
+      integer, parameter :: ID_ShowSource                   = 32781
+      integer, parameter :: ID_ShowTarget                   = 32782
+      integer, parameter :: ID_Fitting_mult                 = 32783
+      integer, parameter :: ID_FlipNormal                   = 32784
+      integer, parameter :: ID_MENUITEM32785                = 32785
+      integer, parameter :: ID_MENUITEM32786                = 32786
+      integer, parameter :: ID_OrientFaces                  = 32787
+      integer, parameter :: ID_ReorientSource               = 32789
+      integer, parameter :: ID_ReorientTarget               = 32790
+      integer, parameter :: ID_Transparent                  = 32791
+      integer, parameter :: ID_ReorientCurrent              = 32792

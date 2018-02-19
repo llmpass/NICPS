@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: easyViewer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Luming\AppData\Local\Temp\RSP1949.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/easyViewer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\easyViewer.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\easyViewerDoc.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\easyViewerView.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\MainFrm.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\VertCorDlg.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Array3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Color.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\ColorRamp.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Edge3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Face3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Material.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Object3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\ParserVrml.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\PsRender.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\SceneGraph3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Texture.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Transform.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Utils3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Vector3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Vertex3d.cpp"
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\glfont\glfont.cpp"
+]
+Creating command line "cl.exe @C:\Users\Luming\AppData\Local\Temp\RSP1949.tmp" 
+Creating temporary file "C:\Users\Luming\AppData\Local\Temp\RSP194A.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/easyViewer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Luming\Dropbox\bone alignment\easyViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Luming\AppData\Local\Temp\RSP194A.tmp" 
+Creating temporary file "C:\Users\Luming\AppData\Local\Temp\RSP195B.tmp" with contents
+[
+OpenGL32.lib glu32.lib glut32.lib glaux.lib ANN.lib glew32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/easyViewer.pdb" /machine:I386 /out:"Release/easyViewer.exe" 
+".\Release\easyViewer.obj"
+".\Release\easyViewerDoc.obj"
+".\Release\easyViewerView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\VertCorDlg.obj"
+".\Release\Array3d.obj"
+".\Release\Color.obj"
+".\Release\ColorRamp.obj"
+".\Release\Edge3d.obj"
+".\Release\Face3d.obj"
+".\Release\Material.obj"
+".\Release\Mesh3d.obj"
+".\Release\Object3d.obj"
+".\Release\ParserVrml.obj"
+".\Release\PsRender.obj"
+".\Release\SceneGraph3d.obj"
+".\Release\Texture.obj"
+".\Release\Transform.obj"
+".\Release\Utils3d.obj"
+".\Release\Vector3d.obj"
+".\Release\Vertex3d.obj"
+".\Release\glfont.obj"
+".\Release\easyViewer.res"
+]
+Creating command line "link.exe @C:\Users\Luming\AppData\Local\Temp\RSP195B.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+easyViewer.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3d/Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+easyViewerDoc.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3d/Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+easyViewerView.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3d/Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+MainFrm.cpp
+VertCorDlg.cpp
+Array3d.cpp
+Color.cpp
+ColorRamp.cpp
+Edge3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Face3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Material.cpp
+Mesh3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Object3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+ParserVrml.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+PsRender.cpp
+SceneGraph3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Texture.cpp
+Transform.cpp
+Utils3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Vector3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+Generating Code...
+Compiling...
+Vertex3d.cpp
+C:\Users\Luming\Dropbox\bone alignment\easyViewer\Lib3D\Mesh3d.h(18) : fatal error C1083: Cannot open include file: 'tnt.h': No such file or directory
+glfont.cpp
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\Users\Luming\AppData\Local\Temp\RSP29F6.tmp" with contents
+[
+/nologo /o"Release/easyViewer.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\easyViewer.sbr"
+".\Release\easyViewerDoc.sbr"
+".\Release\easyViewerView.sbr"
+".\Release\MainFrm.sbr"
+".\Release\VertCorDlg.sbr"
+".\Release\Array3d.sbr"
+".\Release\Color.sbr"
+".\Release\ColorRamp.sbr"
+".\Release\Edge3d.sbr"
+".\Release\Face3d.sbr"
+".\Release\Material.sbr"
+".\Release\Mesh3d.sbr"
+".\Release\Object3d.sbr"
+".\Release\ParserVrml.sbr"
+".\Release\PsRender.sbr"
+".\Release\SceneGraph3d.sbr"
+".\Release\Texture.sbr"
+".\Release\Transform.sbr"
+".\Release\Utils3d.sbr"
+".\Release\Vector3d.sbr"
+".\Release\Vertex3d.sbr"
+".\Release\glfont.sbr"]
+Creating command line "bscmake.exe @C:\Users\Luming\AppData\Local\Temp\RSP29F6.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Release\easyViewer.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+easyViewer.exe - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
